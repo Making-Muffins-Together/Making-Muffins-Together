@@ -1,0 +1,90 @@
+body {
+    margin-top: 60px;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-top: 25px;
+}
+
+.navigation {
+    background: #4dadb1;
+    width: 100%;
+    padding: 0 10%;
+    position: fixed;
+    top: 0;
+}
+
+.navigation__logo {
+    width: 120px;
+    background-color: white;
+}
+
+.navigation__logo a {
+    color: black;
+    text-decoration: none;
+}
+
+.navigation__logo img{
+    max-width: 200px;
+    max-height: 60px;
+}
+
+.navigation__links {
+    display:flex;
+    min-height: 60px;
+    flex-direction: row;
+}
+
+.navigation__links ul {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    min-height: 60px;
+    margin-bottom: 0;
+}
+
+
+.freeTrial__form {
+    margin: 20px;
+    padding: 50px;
+    background-color: #4dadb1;
+    border-radius: 5px;
+}
+
+.freeTrial__content {
+    display: flex;
+}
+
+.freeTrial__form--signup {
+    width: 70%;
+}
+
+.freeTrial__image {
+    width: 29%;
+}
+
+.freeTrial__image img {
+    width:100%;
+}
+
+.module__featureVideo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #4dadb1;
+    padding: 50px 5%;
+}
+
+.featureVideo__content {
+    width: 80%;
+    margin: 0 auto;
+    display:block;
+}
+.featureVideo__video {
+    margin: 0 auto;
+    display:block;
+    width: 100%;
+}
+
