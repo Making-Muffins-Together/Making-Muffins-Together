@@ -1,5 +1,43 @@
+@font-face {
+  font-family: ceraPro-bold;
+  src: url(ceraPro-bold.ttf);
+}
+@font-face {
+  font-family: ceraPro-regular;
+  src: url(ceraPro-regular.ttf);
+}
+@font-face {
+  font-family: MartelSans-Regular;
+  src: url(fonts/MartelSans-Regular.ttf);
+}
+@font-face {
+  font-family: MartelSans-Bold;
+  src: url(fonts/MartelSans-Bold.ttf);
+}
+@font-face {
+  font-family: MartelSans-Black;
+  src: url(fonts/MartelSans-Black.ttf);
+}
+@font-face {
+  font-family: MartelSans-ExtraBold;
+  src: url(fonts/MartelSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: MartelSans-ExtraLight;
+  src: url(fonts/MartelSans-ExtraLight.ttf);
+}
+@font-face {
+  font-family: MartelSans-Light;
+  src: url(fonts/MartelSans-Light.ttf);
+}
+@font-face {
+  font-family: MartelSans-SemiBold;
+  src: url(fonts/MartelSans-SemiBold.ttf);
+}
+
 body {
   margin-top: 60px;
+  font-family: MartelSans-Regular;
 }
 
 button {
@@ -21,6 +59,17 @@ h2 {
   padding: 0 10%;
   position: fixed;
   top: 0;
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  z-index: 10;
+}
+
+.navigation__logo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .navigation__logo {
@@ -52,6 +101,16 @@ h2 {
   list-style: none;
   min-height: 60px;
   margin-bottom: 0;
+}
+
+.navigation__links ul li {
+  font-size: 18px;
+}
+
+.navigation__links button {
+  font-size: 18px;
+  margin: 15px;
+  padding: 0px 15px;
 }
 
 .navigation__links ul a {
@@ -130,10 +189,10 @@ h2 {
   padding: 100px 0 25px;
 }
 
-.pricing__content__promo__row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.pricing__content__promo__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .pricing__content__promo {
@@ -144,28 +203,28 @@ h2 {
   border-radius: 5px;
 }
 
-.pricing__content__promo ul{
-    list-style: none;
-    font-size: 24px;
-    padding-inline-start: 0px;
+.pricing__content__promo ul {
+  list-style: none;
+  font-size: 24px;
+  padding-inline-start: 0px;
 }
 
-.pricing__content__promo li{
-    padding: 7px;
+.pricing__content__promo li {
+  padding: 7px;
 }
 
 .pricing__content__promo .pricing__content__promo--pricing {
-    font-size: 40px;
+  font-size: 40px;
 }
 
-.pricing__content__promo .pricing__content__promo--header h3{
-    padding-top: 10px;
-    padding-bottom: 5px;
-    width: 50%;
-    font-size: 40px;
-    display: block;
-    margin: 10px auto;
-    border-bottom: solid white 1px;
+.pricing__content__promo .pricing__content__promo--header h3 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 50%;
+  font-size: 40px;
+  display: block;
+  margin: 10px auto;
+  border-bottom: solid white 1px;
 }
 
 .module__pricing h2 {
